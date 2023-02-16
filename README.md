@@ -25,12 +25,14 @@ Put all the web application page code file into github
 
 ### Stage-02 : Install Jenkins and start Jenkins 
 1. Install sonarqube scanner plugins
+1. go to manage jenkins > manage pulgins > search for plugins > install without restart 
 
 ### Stage-03 : Install SonarQube
 1. Create a Project Manually
 1.  Give name to your project , Project key then click on setup
 1.  Click on other ci and generate token
 1.  Copy that token and save somewhere because we need this token later.
+![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2012-47-08.png) 
   
  ### Stage-04 : Configure Jenkins
 1. go to manage jenkins > Manage Credentials > system > Add credentials > secret text file > paste  token we create in sonarqube and save and apply.
