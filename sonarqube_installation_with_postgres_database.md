@@ -160,6 +160,7 @@ Verify that everything is OK:
 systemctl status sonarqube.service
 ```
 
+
 #Access to the SonarQube web interface
 Now, open your web browser and access http://yourserver:9000 and you will see this screen indicating that SonarQube is running
 
