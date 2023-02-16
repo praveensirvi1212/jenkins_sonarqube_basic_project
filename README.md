@@ -33,7 +33,7 @@ Put all the web application page code file into github
 1.  Copy that token and save somewhere because we need this token later.
   
  ### Stage-04 : Configure Jenkins
-1. go to manage jenkins > Manage Credentials > system > Add credentials > secret text file > paste for token we create in sonarqube and save and apply.
+1. go to manage jenkins > Manage Credentials > system > Add credentials > secret text file > paste  token we create in sonarqube and save and apply.
 1. go to manage Jenkins > Global tool configuration >  Add Maven and SonarQube Scanner
 1. go to manage Jenkins > Configure System > Add SonarQube Server 
 
@@ -46,4 +46,8 @@ Put all the web application page code file into github
 
 
 ### Final output :
-![](https://github.com/praveensirvi1212/webdev/blob/main/img/finalop1.JPG) 
+Jenkins Output :
+![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-42.png) 
+ 
+Sonarqube Output: 
+![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-34.png) 
