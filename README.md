@@ -53,6 +53,8 @@ Jenkins Output :
 
 ![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-42.png) 
  
+You can find your jar file build by maven at /var/lib/jenkins/workspace/devopscicd/target/ this location
+
 Sonarqube Output: 
 
 ![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-34.png) 
