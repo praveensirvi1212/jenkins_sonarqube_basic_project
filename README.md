@@ -27,7 +27,7 @@ Put all the web application page code file into github
 1. Install sonarqube scanner plugins
 1. go to manage jenkins > manage pulgins > search for plugins > install without restart 
 
-### Stage-03 : Install SonarQube
+### Stage-03 : Install Postgre Database and Install SonarQube
 1. Create a Project Manually
 1.  Give name to your project , Project key then click on setup
 1.  Click on other ci and generate token
