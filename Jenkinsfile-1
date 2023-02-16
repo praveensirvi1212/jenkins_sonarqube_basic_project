@@ -24,10 +24,15 @@ pipeline {
             steps{
                    withSonarQubeEnv('sonarqube') {
                         sh 'mvn clean verify sonar:sonar \
-                        -Dsonar.projectKey=devsecopsproject-key \
+                        -Dsonar.projectKey=devops-project-key \
                         -Dsonar.host.url=$sonarurl \
                         -Dsonar.login=$sonarlogin'
                     }
+            }
+        }
+        stage('Deploy'){
+            steps{
+                sh 'timeout 60s java -jar /var/lib/jenkins/workspace/devopscicd/target/demo-0.0.1-SNAPSHOT.jar'
             }
         }
         }
