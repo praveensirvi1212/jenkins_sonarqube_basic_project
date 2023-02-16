@@ -45,6 +45,7 @@ Put all the web application page code file into github
 1. Click on Build now to build your job
 1. to see output of the build ,  click on build > console output
 
+![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2012-51-35.png) 
 
 
 ### Final output :
