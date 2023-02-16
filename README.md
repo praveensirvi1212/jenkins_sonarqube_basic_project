@@ -14,7 +14,7 @@ In this project, we will be see how to *use Git, GitHub , Jenkins,SonarQube and 
 1. Jenkins
 1. SonarQube 
 1. AWS EC2
-1. Java -open-jdk 11
+1. Java open-jdk 11
 1. Maven
 
 
@@ -50,7 +50,9 @@ Put all the web application page code file into github
 
 ### Final output :
 Jenkins Output :
+
 ![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-42.png) 
  
 Sonarqube Output: 
+
 ![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2001-00-34.png) 
