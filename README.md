@@ -19,7 +19,7 @@ In this project, we will be see how to *use Git, GitHub , Jenkins,SonarQube and 
 
 
 ### Stage-01 : Install JDK and Create a Java Springboot application
-Put all the web application page code file into github
+Push all the web application page code file into github
 
 ![](https://github.com/praveensirvi1212/jenkins_sonarqube_basic_project/blob/main/images/Screenshot%20from%202023-02-16%2012-03-55.png) 
 
