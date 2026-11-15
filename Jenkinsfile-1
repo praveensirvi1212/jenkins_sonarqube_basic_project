@@ -22,11 +22,11 @@ pipeline {
         }
         stage('SonarQube Analysis'){
             steps{
-                   withSonarQubeEnv('sonarqube') {
+                   withSonarQubeEnv('SonarQube-Server') {
                         sh 'mvn clean verify sonar:sonar \
                         -Dsonar.projectKey=devops-project-key \
-                        -Dsonar.host.url=$sonarurl \
-                        -Dsonar.login=$sonarlogin'
+                        -Dsonar.host.url=$http://3.87.145.149:9000 \
+                        -Dsonar.login=$admin'
                     }
             }
         }
